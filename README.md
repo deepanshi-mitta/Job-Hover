@@ -23,5 +23,5 @@ The **Job-Hover** is intended for the students of GLA University,Mathura to sear
 ## Credits
 
 - [Deepanshi Mittal](https://github.com/deepanshi-mitta)
-- [Shruti Sharma]
-- [Shrishti Gupta]
+- [Shruti Sharma](https://github.com/shruti-a11y)
+- [Shrishti Gupta](https://github.com/shristi-gupta21)
