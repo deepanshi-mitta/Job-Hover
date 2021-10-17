@@ -17,7 +17,7 @@ The **Job-Hover** is intended for the students of GLA University,Mathura to sear
 ## Tech Stack
 
 - **IDE:** Visual Studio Code.
-- **Language:** HTML,CSS,Jacvascript.
+- **Language:** HTML,CSS,Javascript.
 
 
 ## Credits
