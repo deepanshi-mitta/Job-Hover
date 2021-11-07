@@ -108,5 +108,6 @@ button:hover{
     }
     .user-details::-webkit-scrollbar{
         width: 0;
+
     }
 }
