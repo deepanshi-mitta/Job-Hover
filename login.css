@@ -100,13 +100,14 @@ html, body{
   text-align: center;
 }
 .container .facebook a,
+.container .signin a,
 .container .twitter a{
   display: block;
   height: 45px;
   width: 100%;
   font-size: 15px;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 67px;
   line-height: 45px;
   color: #fff;
   border-radius: 5px;
@@ -114,8 +115,14 @@ html, body{
 }
 
 .container .facebook i,
+/* .container .signin i, */
 .container .twitter i{
   padding-right: 12px;
+  font-size: 20px;
+}
+
+.container .signin i{
+  padding-right: 22px;
   font-size: 20px;
 }
 .container .twitter a{
@@ -124,15 +131,17 @@ html, body{
 }
 .container .twitter a:hover{
   background: linear-gradient(to left,  #00acee 0%, #1abeff 100%);
-  margin: 20px 0 15px 0;
+  margin: 20px 0 25px 0;
 }
-.container .facebook a{
+
+.container .signin a{
   background: linear-gradient( to right,  #3b5998 0%, #476bb8 100%);
-  margin: 20px 0 50px 0;
+  margin: 20px 0 20px 0;
+  padding-left: 115px;
 }
-.container .facebook a:hover{
-  background: linear-gradient( to left,  #3b5998 0%, #476bb8 100%);
-  margin: 20px 0 50px 0;
+.container .signin a:hover{
+  background: linear-gradient( to left,  #4f7fe6 0%, #476bb8 100%);
+  margin: 20px 0 20px 0;
 }
 
 
