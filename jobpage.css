@@ -5,7 +5,7 @@
   font-family: serif;
 }
 .body {
-  background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+  background-image: linear-gradient(to right, rgb(235, 235, 180),rgb(238, 230, 230)); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,12 @@
   padding-left: 220px;
   text-align: center;
   padding-top: 15px;
-  
+  text-decoration: none;
+}
+
+.content h2 a {
+  text-decoration: none;
+  text-shadow: -3px 3px 3px rgb(214, 186, 62);
 }
 
 #p {
@@ -111,4 +116,92 @@ footer div ul li a:hover {
 
 .address ul li p:hover {
   color: cadetblue;
+}
+
+.copyright {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(24, 22, 22);
+}
+
+.text {
+  color: grey;
+  text-align: center;
+  line-height: 40px;
+}
+
+.header-content {
+  margin-bottom: 150px;
+  color: white;
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 4vmin;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 75px;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+  background-image: linear-gradient(to right, #6db9ef,#7ce08a);
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-links li {
+  margin: 0 30px;
+}
+.logo {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+  font-weight: bolder;
+  font-family: "Ephesis", cursive;
+  line-height: 75px;
+}
+.nav-links a {
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  margin: 2px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: whitesmoke;
+}
+.login {
+  border-radius: 10px 5px;
+  padding: 15px;
+  color: whitesmoke;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.register {
+  border-radius: 10px 5px;
+  padding: 15px;
+  color: whitesmoke;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.header-content input {
+  height: 71px;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding: 15px;
 }
