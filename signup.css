@@ -7,7 +7,7 @@
 .container1{
     display: flex;
     /* background: linear-gradient(135deg,#71b7e6,#9b59b6); */
-    background-color: gray;
+    background: linear-gradient(to right,#6db9ef,#7ce08a);
     /* opacity: 0.2; */
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@
     height: 3px;
     width: 30px;
     /* border-radius: 2px; */
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    background: linear-gradient(to right,#6db9ef,#7ce08a);
 }
 /* form css */
 .signup form .user-details{
@@ -73,7 +73,7 @@ form .user-details .input-box{
 .user-details .input-box input:focus,
 .user-details .input-box input:hover,
 .user-details .input-box input:valid {
-    border-color: #9b59b6;
+    border-color: #7ce08a;
 }
 
 button {
@@ -88,11 +88,11 @@ button {
     font-weight:700;
     letter-spacing: 1px;
     border-radius: 5px;
-    background: linear-gradient(135deg,#71b7e6,#9b59b6);
+    background: linear-gradient(to right,#6db9ef,#7ce08a);
 
 }
 button:hover{
-    background: linear-gradient(-135deg,#71b7e6,#9b59b6);
+    background:linear-gradient(to right,#6db9ef,#7ce08a);
 }
 @media (max-width : 580px){
     .signup{
